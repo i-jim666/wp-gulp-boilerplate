@@ -1,11 +1,13 @@
-It's a Wordpress boiler plate built with Parcel and Carbon fields. This boiler plate has all the functions ready to create custom gutenberg blocks and theme options quickly. 
+It's a Wordpress boiler plate built with Gulp and Carbon fields. This boiler plate has all the functions ready to create custom gutenberg blocks and theme options quickly. 
 
-Yarn and Parcel have been used here so to get started and compile scss files and javascript files follow the commands below.
+Follow the commands below go get started.
+
+This theme is built with npm version 14
 
 
-## Install yarn using the following command
+## Install gulp using the following command
 
-**yarn install**
+**npm install**
 
 ## Install carbon fields using the following command
 
@@ -13,4 +15,4 @@ Yarn and Parcel have been used here so to get started and compile scss files and
 
 ## Run parcel using
 
-**yarn dev**
+**gulp watch**
