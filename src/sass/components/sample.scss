@@ -1,0 +1,121 @@
+.hero{
+    position: relative;
+    min-height: 816px;
+    margin-top: 72px;
+
+    @media (max-width: 1200px){
+        padding-top: 50px;
+        margin-top: 62px;
+    }
+    @media (max-width: 600px){
+        min-height: auto;
+    }
+
+    .bg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        img{
+            width: 100%;
+            height: 100%;
+
+            @media (max-width: 600px){
+                height: 375px;
+            }
+        }
+    }
+
+    .container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        @media (max-width: 992px){
+            padding-left: 20px;
+            padding-right: 20px;
+            flex-direction: column;
+            text-align: center;
+        }
+    
+        >div{
+            width: 50%;
+
+            @media (max-width: 1200px){
+                width: 100%;
+            }
+
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+
+    .title_content{
+        max-width: 648px;
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 150%;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+        text-transform: uppercase;
+        font-weight: 400;
+
+        @media (max-width: 600px){
+            font-size: 20px;
+            line-height: 150%;
+            margin-bottom: 34px;
+        }
+    }
+
+    .desc{
+        margin-top: 18px;
+
+        p{
+            font-size: 18px;
+            line-height: 145%;
+            font-feature-settings: 'liga' off;
+            color: #000000;
+
+            @media (max-width: 600px){
+                font-size: 14px;
+                line-height: 145%;
+                max-width: 274px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .btn{
+        display: inline-flex;
+        margin-top: 50px;
+    }
+
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        .btn{
+            margin-top: 36px;
+            padding: 10px 28px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+    }
+}
+

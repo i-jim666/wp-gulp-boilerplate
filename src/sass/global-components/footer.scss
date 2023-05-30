@@ -1,0 +1,45 @@
+.footer{
+    background: #012C82;
+    padding-top: 68px;
+    padding-bottom: 54px;
+
+    text-align: center;
+
+    .footer_logo{
+        margin-bottom: 48px;
+        img{
+            width: 100%;
+            height: auto;
+
+            max-width: 451px;
+
+            @media (max-width: 1200px){
+                max-width: 280px;
+            }
+        }
+    }
+
+    a,div{
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+        display: block;
+    }
+
+    a{
+        margin-bottom: 17px;
+    }
+
+    .copyright{
+        margin-top: 66px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+}

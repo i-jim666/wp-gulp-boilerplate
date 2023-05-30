@@ -1,0 +1,50 @@
+
+//Add your own editor styles here or comment out the next line if you want to pull in the whole Bootstrap stuff
+//@import "theme"; 
+
+a{
+  text-decoration: none;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+  /**********************************/
+ /*        LAYOUT STYLES           */
+/**********************************/
+
+@import 'layout/variables.scss';
+@import 'layout/base.scss';
+@import 'layout/typography.scss';
+@import 'layout/fonts.scss';
+
+  /**********************************/
+ /*    GLOBAL COMPONENT STYLES     */
+/**********************************/
+
+@import 'global-components/header.scss';
+@import 'global-components/footer.scss';
+@import 'global-components/library-styles.scss';
+
+
+
+  /**********************************/
+ /*          PAGE STYLES           */
+/**********************************/
+@import 'page/generic.scss';
+@import 'page/search.scss';
+@import 'page/single.scss';
+
+
+  /**********************************/
+ /*        COMPONENT STYLES        */
+/**********************************/
+@import 'components/sample.scss';
+
+
+
+
+
+
+
+
