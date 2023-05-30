@@ -13,6 +13,6 @@ This theme is built with npm version 14
 
 **composer require htmlburger/carbon-fields**
 
-## Run parcel using
+## Run gulp using
 
 **gulp watch**
